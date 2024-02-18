@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        header img {
+            width: 25%;
+            border-radius: 25px 25px 25px 25px;
+            margin-bottom: 0.5em;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 0.5em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0.5em;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="./assets/images/shaheem_photo.jpg" alt="my photo">
+        <h1>Shaheem Shan</h1>
+        <p>Web Developer | Designer</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello there! I'm Shaheem Shan, a passionate and enthusiastic web development enthusiast. I'm currently on the exciting journey of becoming a proficient web developer. I have a strong desire to learn and explore the vast world of web technologies.
+
+            My journey began with basic HTML, CSS, and JavaScript, and I'm continuously expanding my knowledge by exploring frameworks and libraries like Bootstrap and jQuery. I'm also getting familiar with version control using Git.
+            
+            My goal is to contribute to the web development community and create engaging, user-friendly websites. I'm eager to take on new challenges, collaborate with fellow developers, and enhance my skills in the ever-evolving field of web development.
+            </p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div>
+            <img src="./assets/images/netflix_clone.png" alt="netflix clone img" style="width: 300px; height: 150px;">
+            <h3>Netflix clone</h3>
+            <p>I recently crafted a stunning replica of the Netflix homepage, diving into the intricate details of its sleek design and user-friendly interface. From the dynamic hero sections to the carefully curated content rows, my clone captures the essence of Netflix's immersive streaming experience. Through this project, I honed my skills in responsive web design and front-end development, ensuring a seamless viewing experience across various devices.</p>
+        </div>
+        <div>
+            <img src="./assets/images/spotify.png" alt="spotify clone img">
+            <h3>Spotify clone</h3>
+            <p>In my latest project, I successfully cloned the Spotify homepage, capturing the essence of its vibrant and music-centric layout. From the personalized recommendations to the artist-driven playlists, my clone mirrors Spotify's commitment to delivering a tailored and engaging music discovery platform. This endeavor allowed me to delve into the complexities of integrating audio features, optimizing performance, and creating an aesthetically pleasing UI, enhancing my proficiency in web development and design.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
